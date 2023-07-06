@@ -6,3 +6,5 @@ This algorithm utilizes collaborative filtering to recommend similar anime based
 ## Running the Project
 Make sure you have a Nvidia Jetson Nano. Running is self explanitory and not very hard. The program may take around 30 seconds or more to completely execute, so be patient.
 As for libraries, make sure you have Nvidia Nano compatible versions of the following libraries:pandas, numpy, matplotlib, and scipy.
+## The code
+![image](https://github.com/henrypppppppp/Jetson-Nano-Anime-Recommender/assets/138828516/2cd9a446-96fd-46ab-90c3-30391054efc6)
