@@ -1,4 +1,4 @@
-import warnings
+_import warnings
 warnings.filterwarnings("ignore")
 import pandas as pd
 import numpy as np
@@ -9,11 +9,11 @@ plt.show()
 chunk_size = 5000
 
 # Process rating data in chunks
-rating_chunks = pd.read_csv('rating.csv', chunksize=chunk_size)
+rating_chunks = pd.read_csv('anime_recommendation/rating.csv', chunksize=chunk_size)
 df = pd.concat(rating_chunks)
 
 # Process anime data in chunks
-anime_chunks = pd.read_csv('anime.csv', chunksize=chunk_size)
+anime_chunks = pd.read_csv('anime_recommendation/anime.csv', chunksize=chunk_size)
 anime = pd.concat(anime_chunks)
 
 # Merging user rating and anime data
